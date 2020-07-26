@@ -1,0 +1,53 @@
+/* scroll to top btn style */
+#to-top-btn,
+#to-top-btn:active {
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    text-align: center;
+    position: fixed;
+    bottom: 3rem;
+    right: 3rem;
+    background-color: #9c9aff !important;
+    border-radius: 50px 0 50px 50px;
+    transition: all .3s;
+    display: none;
+    z-index: 1000;
+}
+#to-top-btn::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 3.5rem;
+    color: #fff;
+}
+#to-top-btn:hover {
+    cursor: pointer;
+    background-color: rgba(156, 154, 255, .6) !important;
+}
+#to-top-btn:hover#to-top-btn::after {
+    color: #626387 !important;
+}
+
+@media screen and (max-width: 1024px) {
+
+    #to-top-btn {
+        width: 3rem;
+        height: 3rem;
+        bottom: 1rem;
+        right: 1.5rem;
+    }
+    #to-top-btn::after {
+        font-size: 1.5em;
+        line-height: 2.5rem;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+
+    #to-top-btn:hover {
+        transform: translateY(-8px) !important;
+    }
+}
