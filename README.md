@@ -29,13 +29,13 @@ Certains plugins nécéssitent des installations complémentaires (se référer 
 ## Détails des plugins :  
 
 
-* to-top-btn :
+* ### to-top-btn :
 
 Plugin permettant l'ajout d'un bouton de retour vers le haut de la page. Les réglages pour faire apparaître le bouton et la vitesse de scroll sont dans le fichier to-top-btn/js/app.js, respectivement ligne 16 et 7. Vous pouvez modifier ces réglages pour les adapter à vos besoins.
 Ce plugin utilise la font-family FontAwesome. Il est donc nécéssaire de vérifier que vous importez bien FontAwesome dans votre version de Wordpress. Vous pouvez modifier ceci ainsi que le style du bouton dans le fichier to-top-btn/css/style.css.  
 
 
-* custom-title :  
+* ### custom-title :  
 
 Plugin offrant la possibilité d'ajouter un titre customisé avant chaque titre de page. Remplacer simplement ```Custom Title -``` à la ligne 25 du fichier custom-title/custom-title.php par le titre souhaité ... et voila !
 
@@ -44,12 +44,12 @@ $title['title'] = 'Custom Title - '.$title['title'];
 ```  
 
 
-* bandeau-cookies :  
+* ### bandeau-cookies :  
 
 Modifiez à votre guise le message d'information ligne 32 du fichier bandeau-cookies/bandeau-cookies.php.  
 
 
-* plugin-youtube :
+* ### plugin-youtube :
 
 Permet l'ajout d'une vidéo youtube grâce à un short-code. La source peut-être récupérée dans l'url des sites youtube ou dailymotion. 
 Example youtube : 
